@@ -5,3 +5,15 @@ D:\Repos\Demo.InterestCalculator\Demo.InterestCalculator\obj\Debug\Demo.Interest
 D:\Repos\Demo.InterestCalculator\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.csproj.CoreCompileInputs.cache
 D:\Repos\Demo.InterestCalculator\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.exe
 D:\Repos\Demo.InterestCalculator\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.pdb
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\bin\Debug\Demo.InterestCalculator.exe.config
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\bin\Debug\Demo.InterestCalculator.exe
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\bin\Debug\Demo.InterestCalculator.pdb
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\bin\Debug\Castle.Core.dll
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\bin\Debug\FakeItEasy.dll
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\bin\Debug\Castle.Core.xml
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\bin\Debug\FakeItEasy.xml
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.csprojAssemblyReference.cache
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.csproj.CoreCompileInputs.cache
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.csproj.CopyComplete
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.exe
+D:\Repos\Assignment\FakeItEasyDemo\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.pdb

@@ -5,9 +5,16 @@ namespace Demo.InterestCalculator
 {
     public class Simpleinterest
     {
-        public double GetAmount(double principalAmount, float Year, double rate)
+        private readonly IMaths Maths;
+
+        public Simpleinterest(IMaths maths)
         {
-            return Maths.Multiply(principalAmount,(Maths.Add(1, (Maths.Multiply(Year, Maths.Divide(rate, 100))))));
+            this.Maths = maths;
+        }
+
+        public double GetInterest(double principalAmount, float Year, double rate)
+        {
+            return Maths.Multiply(principalAmount,Year,Maths.Divide(rate,100));
         }
     }
 }

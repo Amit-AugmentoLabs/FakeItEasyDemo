@@ -1,0 +1,7 @@
+D:\Repos\Demo.InterestCalculator\Demo.InterestCalculator\bin\Debug\Demo.InterestCalculator.exe.config
+D:\Repos\Demo.InterestCalculator\Demo.InterestCalculator\bin\Debug\Demo.InterestCalculator.exe
+D:\Repos\Demo.InterestCalculator\Demo.InterestCalculator\bin\Debug\Demo.InterestCalculator.pdb
+D:\Repos\Demo.InterestCalculator\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.csprojAssemblyReference.cache
+D:\Repos\Demo.InterestCalculator\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.csproj.CoreCompileInputs.cache
+D:\Repos\Demo.InterestCalculator\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.exe
+D:\Repos\Demo.InterestCalculator\Demo.InterestCalculator\obj\Debug\Demo.InterestCalculator.pdb

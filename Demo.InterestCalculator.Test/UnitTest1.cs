@@ -8,7 +8,7 @@ namespace Demo.InterestCalculator.Test
     public class UnitTest1
     {
         [TestMethod]
-        public void should_return_actual_result()
+        public void Simple_Interest_Method_should_return_actual_result()
         {
             double principalAmount = 1000;
             int year = 3;
@@ -16,7 +16,7 @@ namespace Demo.InterestCalculator.Test
             var maths = A.Fake<IMaths>();
             A.CallTo(() => maths
                     .Multiply(A<double>._, A<double>._, A<double>._)
-                )
+                )   
             .Returns(60);
 
             A.CallTo(() => maths
@@ -35,7 +35,7 @@ namespace Demo.InterestCalculator.Test
         
         [TestMethod]
         [ExpectedException(typeof(DivideByZeroException))]
-        public void should_throw_DivideByZeroException()
+        public void Simple_Interest_Method_should_throw_DivideByZeroException()
         {
             double principalAmount = 1000;
             int year = 3;
@@ -48,7 +48,7 @@ namespace Demo.InterestCalculator.Test
             .Returns(60);
 
             A.CallTo(() => maths
-                .Divide(A<double>._, A<double>._)
+                .Divide(A<double>.Ignored, A<double>.Ignored)
                 )
             .Throws(() => new DivideByZeroException());
 
@@ -57,5 +57,28 @@ namespace Demo.InterestCalculator.Test
             double result = s.GetInterest(principalAmount, year, rate);
             result += principalAmount;
         }
+
+        //------------------------------Under Progress----------------------------//
+        //[TestMethod]
+        //public void Compound_Interest_Method_Should_return_actual_result()
+        //{
+        //    double principalAmount = 1000;
+        //    int year = 3;
+        //    double rate = 2;
+        //    int numberOfTimes = 2;
+
+        //    var maths = A.Fake<IMaths>();
+
+        //    A.CallTo(() => maths
+        //            .Multiply(A<double>._, A<double>._, A<double>._)
+        //        )
+        //    .Returns(60);
+
+        //    A.CallTo(() => maths
+        //        .Divide(A<double>._, A<double>._)
+        //        )
+        //    .Returns(0.02);
+
+        //}
     }
 }

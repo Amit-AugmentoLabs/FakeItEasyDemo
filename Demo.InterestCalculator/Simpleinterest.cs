@@ -9,12 +9,11 @@ namespace Demo.InterestCalculator
 
         public Simpleinterest(IMaths maths)
         {
-            this.Maths = maths;
+            Maths = maths;
         }
 
-        public double GetInterest(double principalAmount, float Year, double rate)
-        {
-            return Maths.Multiply(principalAmount,Year,Maths.Divide(rate,100));
-        }
+        public double GetInterest(double principalAmount, float Year, double rate) => 
+                Maths.Multiply(principalAmount,Year,Maths.Divide(rate,100));
+        
     }
 }
